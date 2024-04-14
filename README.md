@@ -54,7 +54,7 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
 </details>
 
 <details>
-  <summary>About <img src="resources/img/waving.gif"></img></summary>
+  <summary>About 🧮 </summary>
   <div align="center">
     <h2>About this Account</h2>
     <p>
