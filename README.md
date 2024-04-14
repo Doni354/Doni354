@@ -20,8 +20,8 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
 <hr>
 
 <div align="center">
-  <a href="https://1999azzar.github.io/1999AZZAR/">
-    <img src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg" alt="snake">
+  <a href="https://github.com/Doni354">
+    <img src="resources/img/grid-snake.svg" alt="snake">
   </a>
 </div>
 
@@ -32,27 +32,24 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
   <div align="center">
     <h2>You can reach me by:</h2>
     <p>
-      <a href="https://www.linkedin.com/in/azzar-budiyanto/" target="_blank">
+      <a href="https://www.linkedin.com/in/aidil-fitrah-romadhoni-61b49a2b3/" target="_blank">
         <img src="https://img.shields.io/badge/linkedin-%231DA1F2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="azzar" height="30">
       </a>
-      <a href="https://fb.com/1999AZZAR" target="_blank">
+      <a href="https://www.facebook.com/profile.php?id=100044409799575" target="_blank">
         <img src="https://img.shields.io/badge/facebook-4267B2.svg?style=for-the-badge&logo=facebook&logoColor=white" alt="azzar" height="30">
       </a>
-      <a href="mailto:azzar.mr.zs@gmail.com" target="_blank">
+      <a href="mailto:doni.smpn1@gmail.com" target="_blank">
         <img src="https://img.shields.io/badge/gmail-EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="azzar" height="30">
       </a>
     </p>
     <p>
-      <a href="https://instagram.com/azzar_budiyanto" target="_blank">
+      <a href="https://www.instagram.com/doni_j354/" target="_blank">
         <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="azzar" height="30">
       </a>
-      <a href="https://wa.me/+6282232529804" target="_blank">
+      <a href="https://wa.me/+6289683322400" target="_blank">
         <img src="https://img.shields.io/badge/whatsapp-4B7F1.svg?style=for-the-badge&logo=whatsapp&logoColor=white" alt="azzar" height="30">
       </a>
-      <a href="https://twitter.com/siapa_hayosiapa" target="_blank">
-        <img src="https://img.shields.io/badge/twitter-1DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="azzar" height="30">
-      </a>
-    </p>
+      </p>
   </div>
 </details>
 
@@ -61,24 +58,21 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
   <div align="center">
     <h2>About this Account</h2>
     <p>
-      <a href="github.com/1999AZZAR" target="_blank">
-        <img src="https://komarev.com/ghpvc/?username=1999AZZAR&style=for-the-badge&label=PROFILE+VIEWS" height="25" alt="views count">
-      </a>
-      <a href="https://1999azzar.github.io/1999AZZAR/">
-        <img src="https://img.shields.io/website?down_message=offline&style=for-the-badge&up_message=online&url=https%3A%2F%2F1999azzar.github.io%2F1999AZZAR%2F" height="25" alt="website">
+      <a href="github.com/Doni354" target="_blank">
+        <img src="https://komarev.com/ghpvc/?username=Doni354&style=for-the-badge&label=PROFILE+VIEWS" height="25" alt="views count">
       </a>
     </p>
     <p>
-      <a href="https://www.codefactor.io/repository/github/1999azzar/1999azzar/overview/main">
-        <img src="https://www.codefactor.io/repository/github/1999azzar/1999azzar/badge/main" height="25" alt="CodeFactor">
+      <a href="https://www.codefactor.io/repository/github/Doni354/Doni354/overview/main">
+        <img src="https://www.codefactor.io/repository/github/Doni354/Doni354/badge/main" height="25" alt="CodeFactor">
       </a>
-      <a href="github.com/1999AZZAR" target="_blank">
-        <img src="https://github.com/1999AZZAR/1999AZZAR/actions/workflows/pages/pages-build-deployment/badge.svg" height="25" alt="page built">
+      <a href="github.com/Doni354" target="_blank">
+        <img src="https://github.com/Doni354/Doni354/actions/workflows/pages/pages-build-deployment/badge.svg" height="25" alt="page built">
       </a>
     </p>
     <p>
-      <a href="github.com/1999AZZAR" target="_blank">
-        <img src="https://img.shields.io/github/license/1999AZZAR/1999AZZAR?color=purple&style=for-the-badge" height="25" alt="license">
+      <a href="github.com/Doni354" target="_blank">
+        <img src="https://img.shields.io/github/license/Doni354/Doni354?color=purple&style=for-the-badge" height="25" alt="license">
       </a>
     </p>
   </div>
@@ -91,23 +85,23 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
     <details open>
       <summary><h3>Languages</h3></summary>
       <p>
-        <a href="https://github.com/1999AZZAR/">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1999AZZAR&langs_count=6&theme=gruvbox&layout=compact&hide_border=true" alt="1999AZZAR :: overall Top Langs">
+        <a href="https://github.com/Doni354/">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doni354&langs_count=6&theme=gruvbox&layout=compact&hide_border=true" alt="Doni354 :: overall Top Langs">
         </a>
       </p>
       <p>
-        <a href="https://github.com/1999AZZAR/">
-          <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1999azzar&theme=gruvbox&layout=compact&hide_border=true" alt="1999AZZAR :: Top Langs by repo">
-          <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=1999azzar&theme=gruvbox&layout=compact&hide_border=true" alt="1999AZZAR :: Top Langs by commit">
+        <a href="https://github.com/Doni354/">
+          <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Doni354&theme=gruvbox&layout=compact&hide_border=true" alt="Doni354 :: Top Langs by repo">
+          <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Doni354&theme=gruvbox&layout=compact&hide_border=true" alt="Doni354 :: Top Langs by commit">
         </a>
       </p>
     </details>
     <details open>
       <summary><h3>Statistics</h3></summary>
       <p>
-        <a href="https://github.com/1999AZZAR/">
-          <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=1999AZZAR&show_icons=true&theme=gruvbox&hide_border=true">
-          <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=1999AZZAR&theme=gruvbox&hide_border=true">
+        <a href="https://github.com/Doni354/">
+          <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=Doni354&show_icons=true&theme=gruvbox&hide_border=true">
+          <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=Doni354&theme=gruvbox&hide_border=true">
         </a>
       </p>
     </details>
@@ -119,7 +113,7 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
   <br>
   <h2 align="center">Latest Contribution</h2>
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img alt="Azzar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=1999azzar&theme=github-compact&hide_border=true">
+    <img alt="Azzar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Doni354&theme=github-compact&hide_border=true">
   </a>
   <br>
 </details>
