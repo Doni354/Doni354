@@ -54,7 +54,7 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
 </details>
 
 <details>
-  <summary>About 🫣</summary>
+  <summary>About <img src="resources/img/waving.gif"></img></summary>
   <div align="center">
     <h2>About this Account</h2>
     <p>
@@ -62,19 +62,7 @@ Please take a look at my <a href="resources\CV.Aidil Fitrah Romadhoni.pdf" targe
         <img src="https://komarev.com/ghpvc/?username=Doni354&style=for-the-badge&label=PROFILE+VIEWS" height="25" alt="views count">
       </a>
     </p>
-    <p>
-      <a href="https://www.codefactor.io/repository/github/Doni354/Doni354/overview/main">
-        <img src="https://www.codefactor.io/repository/github/Doni354/Doni354/badge/main" height="25" alt="CodeFactor">
-      </a>
-      <a href="github.com/Doni354" target="_blank">
-        <img src="https://github.com/Doni354/Doni354/actions/workflows/pages/pages-build-deployment/badge.svg" height="25" alt="page built">
-      </a>
-    </p>
-    <p>
-      <a href="github.com/Doni354" target="_blank">
-        <img src="https://img.shields.io/github/license/Doni354/Doni354?color=purple&style=for-the-badge" height="25" alt="license">
-      </a>
-    </p>
+    
   </div>
 </details>
 
