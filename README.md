@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+
+Hello! I'm [your name], a student from SMK Negeri 1 Boyolangu.
+I enjoy learning new things and have a passion for web development and UI/UX design.
+I believe continuous learning is the key to success. Thank you!
 <!--
 **Doni354/Doni354** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
