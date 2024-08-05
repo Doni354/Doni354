@@ -13,14 +13,14 @@
     <h4>I'm a student from SMK Negeri 1 Boyolangu.
 I enjoy learning new things and have a passion for web development and UI/UX design.
 I believe continuous learning is the key to success. 
-Please take a look at my <a href="https://doni354.github.io/Doni354/" target="_blank">Web Porto</a> for more information.</h4>
+Please take a look at my <a href="https://doni354.vercel.app/" target="_blank">Web Porto</a> for more information.</h4>
   </span>
 </div>
 
 <hr>
 
 <div align="center">
-  <a href="https://doni354.github.io/Doni354/">
+  <a href="https://doni354.vercel.app/">
     <img src="resources/img/grid-snake.svg" alt="snake">
   </a>
 </div>
