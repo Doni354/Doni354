@@ -116,6 +116,7 @@ You can support me by buying me a coffee if you like to.
 <div align="left">
   <a href="https://nyawer.co/Doni354" target="_blank">
     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 42px !important;width: 151.9px !important; margin-top: 50px !important;">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee :D" style="height: 42px !important;width: 151.9px !important; margin-top: 50px !important;">
   </a>
 </div>
 
