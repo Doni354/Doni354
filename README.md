@@ -1,110 +1,65 @@
-# ✨ Aidil Fitrah Romadhoni
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--   <title>Doni - Junior Developer</title> -->
+</head>
+<body>
+# Aidil Fitrah Romadhoni
 
-\`\`\`
-  _______                _ _______ _____ _  _
- |  __ \ \    / /  ____| |_   _|  ____| || |
- | |  | \ \  / /| |___ | | | | | |__ | || |
- | |  | | \ / / |  ___| | | | |  __| |__   _|
- | |__| |  V  /  | |     | | | | |      | |
- |_____/  \_/   |_|     |_| |_| |_|     |_|
-    
-\`\`\`
+**Full Stack Web Developer | Firebase & Golang Specialist**  
+🏆 National Winner FIKSI 2024 - Digital Technology
 
-**Full Stack Web Developer | Firebase & Golang Specialist | National Tech Winner 🏆**
+---
+
+<div align="center">
+  <a href="https://doni354.vercel.app/">
+    <img src="resources/img/grid-snake.svg" alt="snake" width="400">
+  </a>
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a passionate Full Stack Web Developer with 1+ years of professional experience building real-time applications. I specialize in **Firebase** for real-time data monitoring and automation, **Golang** for efficient backend services, and modern web frameworks including Laravel and CodeIgniter. Currently pursuing a Software Engineering degree at Universitas Telkom Surabaya while continuously building innovative digital products.
-
-**🎯 Achievement:** Juara 1 Nasional FIKSI 2024 (Bidang Teknologi Digital) — KEMENDIKBUDRISTEK
+Full Stack Web Developer with 1+ years of professional experience. I specialize in **Firebase** real-time systems, **Golang** backend services, and modern web frameworks. Currently studying Software Engineering at Universitas Telkom Surabaya.
 
 ---
 
-## 💼 Professional Experience
+## 💼 Experience
 
-### Full Stack Web Developer @ **Haltech**
-**Oct 2023 - Jun 2025** *(1 year 9 months)*
+**Full Stack Web Developer** @ Haltech *(Oct 2023 - Jun 2025)*
+- VeLinked — Digital entrepreneurship platform (Juara 1 FIKSI 2024)
+- CMS Wisnufarma & SPMB/PPDB Tulungagung 2025
+- Tech: Firebase, Golang, CodeIgniter, Laravel, REST API
 
-- Developed real-time web applications using Firebase for data monitoring, authentication, cloud functions, and API automation
-- Built scalable REST APIs using Golang for efficient backend operations
-- Contributed to feature development across multiple PHP-based projects (CodeIgniter, Laravel)
-
-**Key Projects:**
-- **VeLinked** — Digital entrepreneurship platform | National Winner FIKSI 2024
-- **CMS Wisnufarma** — Content Management System development & optimization
-- **SPMB/PPDB Tulungagung 2025** — Data visualization dashboard, UI redesign, performance testing with K6, and dummy data generator
-
-**Tech Stack:** `Firebase` `Golang` `PHP` `CodeIgniter` `Laravel` `REST API` `Cloud Functions`
+**Full Stack Web Developer** @ Elecomp Indonesia *(Jul - Dec 2024)*
+- Developed 25+ company profile websites
+- SEO optimization & performance testing
+- Tech: CodeIgniter 3, PHP, WordPress
 
 ---
 
-### Full Stack Web Developer @ **Elecomp Indonesia**
-**Jul 2024 - Dec 2024** *(6 months)*
+## 🛠️ Tech Stack
 
-- Developed and optimized 25+ company profile websites using CodeIgniter 3
-- Implemented SEO optimization and performance audits (Safehouse, Google PageSpeed API)
-- Managed digital marketing training and content creation across WordPress, Blogger, and Canva
-- Video editing and multimedia content production
+**Backend:** Firebase | Golang | Laravel | CodeIgniter | REST API | Cloud Functions
 
-**Tech Stack:** `CodeIgniter 3` `PHP` `SEO` `Performance Optimization` `WordPress`
+**Frontend:** React | JavaScript | HTML5 | CSS3 | Responsive Design
+
+**Tools:** Git | GitHub | Vercel | Google Cloud | K6 | WordPress
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 📊 GitHub Stats
 
-**Backend Development:**
-\`\`\`
-Firebase | Golang | Laravel | CodeIgniter 3 | REST API | Cloud Functions | Database Design
-\`\`\`
+<div align="center">
 
-**Frontend Development:**
-\`\`\`
-React | JavaScript | HTML5 | CSS3 | Responsive Design | UI/UX Implementation
-\`\`\`
-
-**Tools & Platforms:**
-\`\`\`
-Git & GitHub | Vercel | Google Cloud | K6 Load Testing | Canva | WordPress | Video Editing
-\`\`\`
-
-**Specializations:**
-- Real-time Data Monitoring & Automation
-- API Integration & Development
-- SEO Optimization
-- Performance Testing & Optimization
-- Backend Architecture Design
-
----
-
-## 🎓 Education
-
-**Sarjana Komputer** — Universitas Telkom Surabaya
-- *S1 Rekayasa Perangkat Lunak (In Progress)*
-
-**Sekolah Menengah Kejuruan** — SMK N 1 Boyolangu *(Graduated 2025)*
-- Jurusan Rekayasa Perangkat Lunak (Software Engineering)
-- Top marks in software engineering courses
-- Active member of OSIS (Religious Affairs Division)
-
----
-
-## 🏅 Awards & Recognitions
-
-| Award | Organization | Date |
-|-------|--------------|------|
-| **Juara 1 Nasional FIKSI 2024** (Bidang Teknologi Digital) | KEMENDIKBUDRISTEK | Sep 2024 - Present |
-
-*FIKSI (Festival Inovasi dan Kewirausahaan Siswa Indonesia) is a national talent competition for vocational education students, selecting the best innovations from 38 provinces across Indonesia.*
-
----
-
-## 📊 GitHub Statistics
-
-[![Aidil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Doni354&show_icons=true&theme=nord&hide_border=true&count_private=true&hide=contribs)](https://github.com/Doni354)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Doni354&show_icons=true&theme=nord&hide_border=true&count_private=true)](https://github.com/Doni354)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Doni354&layout=compact&theme=nord&hide_border=true)](https://github.com/Doni354)
+
+</div>
 
 ---
 
@@ -123,9 +78,7 @@ Git & GitHub | Vercel | Google Cloud | K6 Load Testing | Canva | WordPress | Vid
 
 ---
 
-## ☕ Support My Work
-
-If you find my projects valuable or enjoy what I do, consider supporting me:
+## ☕ Support
 
 <div align="center">
 
@@ -137,10 +90,13 @@ If you find my projects valuable or enjoy what I do, consider supporting me:
 
 <div align="center">
 
-**Made with ❤️ by [Doni354](https://github.com/Doni354)**
-
-*Terima kasih telah mengunjungi profil saya | Thank you for visiting my profile*
-
-*Last Updated: December 2024*
+Made with ❤️ by [Doni354](https://github.com/Doni354)
 
 </div>
+
+</html>
+
+-----
+
+Credits: [Doni_354](https://github.com/Doni354)
+
