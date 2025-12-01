@@ -6,94 +6,120 @@
 <!--   <title>Doni - Junior Developer</title> -->
 </head>
 <body>
-# Aidil Fitrah Romadhoni
 
-**Full Stack Web Developer | Firebase & Golang Specialist**  
-🏆 National Winner FIKSI 2024 - Digital Technology
+<div align="center">
+  <span>
+    <h1>Hello, I'm Doni</h1>
+    <h4>I'm a student from SMK Negeri 1 Boyolangu.
+I enjoy learning new things and have a passion for web development and UI/UX design.
+I believe continuous learning is the key to success. 
+Please take a look at my <a href="https://doni354.vercel.app/" target="_blank">Web Porto</a> for more information.</h4>
+  </span>
+</div>
 
----
+<hr>
 
 <div align="center">
   <a href="https://doni354.vercel.app/">
-    <img src="resources/img/grid-snake.svg" alt="snake" width="400">
+    <img src="resources/img/grid-snake.svg" alt="snake">
   </a>
 </div>
 
----
+<hr>
 
-## 👨‍💻 About Me
+<details>
+  <summary>Contact Me ☎️</summary>
+  <div align="center">
+    <h2>You can reach me by:</h2>
+    <p>
+      <a href="https://www.linkedin.com/in/aidil-fitrah-romadhoni-61b49a2b3/" target="_blank">
+        <img src="https://img.shields.io/badge/linkedin-%231DA1F2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="azzar" height="30">
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100044409799575" target="_blank">
+        <img src="https://img.shields.io/badge/facebook-4267B2.svg?style=for-the-badge&logo=facebook&logoColor=white" alt="azzar" height="30">
+      </a>
+      <a href="mailto:doni.smpn1@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/gmail-EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="azzar" height="30">
+      </a>
+    </p>
+    <p>
+      <a href="https://www.instagram.com/doni_j354/" target="_blank">
+        <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="azzar" height="30">
+      </a>
+      <a href="https://wa.me/+6289683322400" target="_blank">
+        <img src="https://img.shields.io/badge/whatsapp-4B7F1.svg?style=for-the-badge&logo=whatsapp&logoColor=white" alt="azzar" height="30">
+      </a>
+      </p>
+  </div>
+</details>
 
-Full Stack Web Developer with 1+ years of professional experience. I specialize in **Firebase** real-time systems, **Golang** backend services, and modern web frameworks. Currently studying Software Engineering at Universitas Telkom Surabaya.
+<details>
+  <summary>About 🧮 </summary>
+  <div align="center">
+    <h2>About this Account</h2>
+    <p>
+      <a href="github.com/Doni354" target="_blank">
+        <img src="https://komarev.com/ghpvc/?username=Doni354&style=for-the-badge&label=PROFILE+VIEWS" height="25" alt="views count">
+      </a>
+    </p>
+     <a href="https://doni354.github.io/Doni354/">
+        <img src="https://img.shields.io/website?down_message=offline&style=for-the-badge&up_message=online&url=https%3A%2F%2Fdoni354.github.io%2FDoni354%2F" height="25" alt="website">
+  </div>
+</details>
 
----
+<details>
+  <summary>GitHub Profile Stats 💻</summary>
+  <div align="center">
+    <h2>GitHub Stats</h2>
+    <details open>
+      <summary><h3>Languages</h3></summary>
+      <p>
+        <a href="https://github.com/Doni354/">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doni354&langs_count=6&theme=gruvbox&layout=compact&hide_border=true" alt="Doni354 :: overall Top Langs">
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/Doni354/">
+          <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Doni354&theme=gruvbox&layout=compact&hide_border=true" alt="Doni354 :: Top Langs by repo">
+          <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Doni354&theme=gruvbox&layout=compact&hide_border=true" alt="Doni354 :: Top Langs by commit">
+        </a>
+      </p>
+    </details>
+    <details open>
+      <summary><h3>Statistics</h3></summary>
+      <p>
+        <a href="https://github.com/Doni354/">
+          <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=Doni354&show_icons=true&theme=gruvbox&hide_border=true">
+          <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=Doni354&theme=gruvbox&hide_border=true">
+        </a>
+      </p>
+    </details>
+  </div>
+</details>
 
-## 💼 Experience
+<details>
+  <summary>Latest Activity Graph 📈</summary>
+  <br>
+  <h2 align="center">Latest Contribution</h2>
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img alt="Azzar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Doni354&theme=github-compact&hide_border=true">
+  </a>
+  <br>
+</details>
 
-**Full Stack Web Developer** @ Haltech *(Oct 2023 - Jun 2025)*
-- VeLinked — Digital entrepreneurship platform (Juara 1 FIKSI 2024)
-- CMS Wisnufarma & SPMB/PPDB Tulungagung 2025
-- Tech: Firebase, Golang, CodeIgniter, Laravel, REST API
+</details>
 
-**Full Stack Web Developer** @ Elecomp Indonesia *(Jul - Dec 2024)*
-- Developed 25+ company profile websites
-- SEO optimization & performance testing
-- Tech: CodeIgniter 3, PHP, WordPress
+### Support
 
----
+You can support me by buying me a coffee if you like to.
 
-## 🛠️ Tech Stack
-
-**Backend:** Firebase | Golang | Laravel | CodeIgniter | REST API | Cloud Functions
-
-**Frontend:** React | JavaScript | HTML5 | CSS3 | Responsive Design
-
-**Tools:** Git | GitHub | Vercel | Google Cloud | K6 | WordPress
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Doni354&show_icons=true&theme=nord&hide_border=true&count_private=true)](https://github.com/Doni354)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Doni354&layout=compact&theme=nord&hide_border=true)](https://github.com/Doni354)
-
+<div align="left">
+  <a href="https://nyawer.co/Doni354" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee :D" style="height: 42px !important;width: 151.9px !important; margin-top: 50px !important;">
+  </a>
 </div>
 
----
-
-## 🔗 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aidil-fitrah-romadhoni-61b49a2b3/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://doni354.vercel.app/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:doni.smpn1@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+6289683322400)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/doni_j354/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100044409799575)
-
-</div>
-
----
-
-## ☕ Support
-
-<div align="center">
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://nyawer.co/Doni354)
-
-</div>
-
----
-
-<div align="center">
-
-Made with ❤️ by [Doni354](https://github.com/Doni354)
-
-</div>
-
+</body>
 </html>
 
 -----
