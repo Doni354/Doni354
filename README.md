@@ -10,9 +10,9 @@
 <div align="center">
   <span>
     <h1>Hello, I'm Doni</h1>
-    <h4>I'm a student from SMK Negeri 1 Boyolangu.
-I enjoy learning new things and have a passion for web development and UI/UX design.
-I believe continuous learning is the key to success. 
+    <h2>Full Stack Web Developer | Firebase</h2> 
+    <h3>🏆 National Winner FIKSI 2024 - Digital Technology</h3>
+    <h4>I'm a Full Stack Web Developer. I specialize in Firebase, Currently studying Software Engineering at Telkom University Surabaya
 Please take a look at my <a href="https://doni354.vercel.app/" target="_blank">Web Porto</a> for more information.</h4>
   </span>
 </div>
@@ -97,15 +97,6 @@ Please take a look at my <a href="https://doni354.vercel.app/" target="_blank">W
   </div>
 </details>
 
-<details>
-  <summary>Latest Activity Graph 📈</summary>
-  <br>
-  <h2 align="center">Latest Contribution</h2>
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img alt="Azzar's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Doni354&theme=github-compact&hide_border=true">
-  </a>
-  <br>
-</details>
 
 </details>
 
