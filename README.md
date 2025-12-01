@@ -10,7 +10,7 @@
 <div align="center">
   <span>
     <h1>Hello, I'm Doni</h1>
-    <h3>Full Stack Web Developer | Firebase
+    <h3>Full Stack Web Developer | Firebase <br>
     🏆 National Winner FIKSI 2024 - Digital Technology</h3>
     <h4>I'm a Full Stack Web Developer, specialize in Firebase. Currently studying Software Engineering at Telkom University Surabaya
 Please take a look at my <a href="https://doni354.vercel.app/" target="_blank">Web Porto</a> for more information.</h4>
