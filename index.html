@@ -155,9 +155,14 @@
     </nav>
 
     <div class="nav-actions">
-      <button type="button" class="btn-embossed btn-embossed-secondary open-cv-modal-btn" style="padding:0.45rem 0.95rem;font-size:0.84rem;">
-        <i class="fa-regular fa-file-pdf"></i> CV
-      </button>
+      <a
+        href="./assets/CV.pdf"
+        class="btn-embossed btn-embossed-secondary"
+        style="padding:0.45rem 0.95rem;font-size:0.84rem;"
+        title="Curriculum Vitae"
+      >
+        <i class="fa-solid fa-download"></i> CV
+      </a>
 
       <button
         type="button"
@@ -189,9 +194,13 @@
     <a href="#awards" class="mobile-nav-link nav-link">Awards</a>
     <a href="#skills" class="mobile-nav-link nav-link">Skills</a>
     <a href="#contact" class="mobile-nav-link nav-link">Contact</a>
-    <button type="button" class="btn-embossed btn-embossed-primary open-cv-modal-btn" style="margin-top:0.5rem;width:100%;">
-      <i class="fa-regular fa-file-pdf"></i> View &amp; Download CV
-    </button>
+    <a
+      href="./assets/CV.pdf"
+      class="btn-embossed btn-embossed-primary"
+      style="margin-top:0.5rem;width:100%;text-align:center;justify-content:center;"
+    >
+      <i class="fa-solid fa-download"></i> Download CV (PDF)
+    </a>
   </div>
 
   <main>
@@ -231,9 +240,12 @@
             <a href="#projects" class="btn-embossed btn-embossed-primary">
               <i class="fa-solid fa-arrow-down"></i> Explore Featured Work
             </a>
-            <button type="button" class="btn-embossed btn-embossed-secondary open-cv-modal-btn">
-              <i class="fa-solid fa-file-arrow-down"></i> View Resume / CV
-            </button>
+            <a
+              href="./assets/CV.pdf"
+              class="btn-embossed btn-embossed-secondary"
+            >
+              <i class="fa-solid fa-file-arrow-down"></i> Download CV (PDF)
+            </a>
             <a href="#contact" class="btn-embossed btn-embossed-secondary">
               <i class="fa-regular fa-comment-dots"></i> Get in Touch
             </a>
@@ -444,8 +456,9 @@
         <!-- Filter Bar -->
         <div class="projects-filter-bar">
           <button type="button" class="filter-btn active" data-filter="all">All Projects</button>
-          <button type="button" class="filter-btn" data-filter="realtime">Real-Time &amp; IoT</button>
-          <button type="button" class="filter-btn" data-filter="fullstack">Full-Stack &amp; POS</button>
+          <button type="button" class="filter-btn" data-filter="fullstack">Full-Stack &amp; Backend</button>
+          <button type="button" class="filter-btn" data-filter="ai">AI &amp; Innovation</button>
+          <button type="button" class="filter-btn" data-filter="realtime">IoT &amp; Hardware</button>
           <button type="button" class="filter-btn" data-filter="webapp">Web Apps</button>
         </div>
 
@@ -666,6 +679,615 @@
               </div>
             </div>
           </article>
+
+          <!-- Project 5: SmartSchool -->
+          <article class="project-card" data-category="fullstack webapp">
+            <div class="project-media">
+              <img
+                src="./assets/smartschool.png"
+                alt="SmartSchool Permission Platform"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-school"></i>
+                <span>Production Web App</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">School Governance &amp; Digital Permits</span>
+              <h3 class="project-title">SmartSchool — Student Permission Management Platform</h3>
+              <p class="project-desc">
+                An active production web portal handling student permits and attendance authorization. Successfully processed over 1,000+ permit records with fast administrative search and real-time approval pipelines.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Cloud Firestore</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://smartschool-34158.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> See Live
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="smartschool"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: INFRIA -->
+          <article class="project-card" data-category="ai fullstack">
+            <div class="project-media">
+              <img
+                src="./assets/infria.png"
+                alt="INFRIA AI Platform"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-brain"></i>
+                <span>PKM-KI • AI Platform</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">AI Infrastructure Layer &amp; SDK</span>
+              <h3 class="project-title">INFRIA — Universal Conversational AI Infrastructure</h3>
+              <p class="project-desc">
+                Universal AI backend platform enabling mobile and web applications to integrate conversational LLMs, workflow orchestrations, and dynamic action calling without rebuilding AI pipelines from scratch.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">n8n</span>
+                <span class="tech-tag">Flutter SDK</span>
+                <span class="tech-tag">LLM</span>
+              </div>
+
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-primary view-project-details-btn"
+                  data-project="infria"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details &amp; Architecture
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 7: Vorce -->
+          <article class="project-card" data-category="fullstack">
+            <div class="project-media">
+              <img
+                src="./assets/vorce.png"
+                alt="Vorce Backend System"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Production Backend</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Enterprise Collaboration API</span>
+              <h3 class="project-title">Vorce — Business Collaboration &amp; Task API</h3>
+              <p class="project-desc">
+                Backend engineering for commercial enterprise operations. Designed multi-tenant company task schemas, REST endpoints (/api/tugas), workflow state management, and Firestore data security.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Firebase Firestore</span>
+                <span class="tech-tag">RESTful API</span>
+                <span class="tech-tag">Cloud Functions</span>
+                <span class="tech-tag">GCP</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://vorce.id/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Vorce
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="vorce"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 8: SPMB / PPDB Tulungagung -->
+          <article class="project-card" data-category="fullstack webapp">
+            <div class="project-media">
+              <img
+                src="./assets/spmb.png"
+                alt="SPMB PPDB Dashboard"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Client Project</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Government Admissions &amp; Load Testing</span>
+              <h3 class="project-title">SPMB / PPDB — Student Admissions &amp; k6 Load Testing</h3>
+              <p class="project-desc">
+                Tailored dashboard UI for Junior High School admissions in Tulungagung Regency. Executed high-concurrency stress &amp; load testing using k6 engine to identify throughput thresholds.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Web Development</span>
+                <span class="tech-tag">k6 (Load Testing)</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-primary view-project-details-btn"
+                  data-project="spmb"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 9: PT Elecomp -->
+          <article class="project-card" data-category="webapp">
+            <div class="project-media">
+              <img
+                src="./assets/elecomp.png"
+                alt="PT Elecomp Web Development"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-building"></i>
+                <span>6-Month Internship</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Software House PKL &amp; Web Production</span>
+              <h3 class="project-title">PT Elecomp — 25+ Client Websites &amp; SEO Optimization</h3>
+              <p class="project-desc">
+                Engineered company profile websites for business clients, executed structured on-page SEO strategies, and achieved top Google PageSpeed / Core Web Vitals optimization scores.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">SEO Tuning</span>
+                <span class="tech-tag">PageSpeed</span>
+              </div>
+
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-primary view-project-details-btn"
+                  data-project="elecomp"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 10: WisnuFarma & CMS Module -->
+          <article class="project-card" data-category="fullstack webapp">
+            <div class="project-media">
+              <img
+                src="./assets/wisnufarma.png"
+                alt="WisnuFarma Pharmacy System"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-pills"></i>
+                <span>Haltec Client</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Medical Commerce &amp; CMS Module</span>
+              <h3 class="project-title">WisnuFarma &amp; CMS — Pharmacy Web Application</h3>
+              <p class="project-desc">
+                Full-stack development of dedicated CMS modules and core pharmacy web features for WisnuFarma in collaboration with Haltec / HalteCreative software house.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">CMS Architecture</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://wisnu-farma.com/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Portal
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="wisnufarma"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 11: Noury -->
+          <article class="project-card" data-category="fullstack webapp">
+            <div class="project-media">
+              <img
+                src="./assets/noury.png"
+                alt="Noury Commerce Platform"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-cash-register"></i>
+                <span>Academic POS</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Commerce &amp; Pre-Order Platform</span>
+              <h3 class="project-title">Noury — POS &amp; Pre-Order Management Platform</h3>
+              <p class="project-desc">
+                Point-of-Sale (POS) and merchandise pre-order management platform created for university entrepreneurship. Features ledger tracking, inventory control, and payment verification.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Cloudinary</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://noury-se.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> See Live
+                </a>
+                <a
+                  href="https://github.com/Doni354/black-market"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-secondary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="noury"
+                  style="padding:0.55rem 0.9rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 12: Simple MPG -->
+          <article class="project-card" data-category="webapp ai">
+            <div class="project-media">
+              <img
+                src="./assets/simplempg.png"
+                alt="Simple MPG Web Games"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Live Web Platform</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Browser Gaming &amp; Real-Time Sync</span>
+              <h3 class="project-title">Simple MPG — Instant Browser Mini-Games Hub</h3>
+              <p class="project-desc">
+                Lightweight zero-install browser games platform. Features Tic Tac Toe with intelligent AI opponent algorithms (minimax logic) and real-time multiplayer synced via Firebase.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">JavaScript (ES6+)</span>
+                <span class="tech-tag">Firebase Realtime DB</span>
+                <span class="tech-tag">HTML5 Canvas</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://simplempg-6c08f.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Play Games
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="simplempg"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 13: Classly AI -->
+          <article class="project-card" data-category="ai webapp">
+            <div class="project-media">
+              <img
+                src="./assets/classlyai.png"
+                alt="Classly AI LMS"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>ZTE Competition</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">AI EdTech Concept &amp; Backend</span>
+              <h3 class="project-title">Classly AI — AI-Augmented Learning Management</h3>
+              <p class="project-desc">
+                Backend development and AI integration for an intelligent LMS concept submitted for the ZTE competition. Laid the foundational architectural principles that sparked the INFRIA platform.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">AI Integration</span>
+                <span class="tech-tag">RESTful API</span>
+              </div>
+
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-primary view-project-details-btn"
+                  data-project="classlyai"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 14: Web Cetak Kartu Pelajar -->
+          <article class="project-card" data-category="webapp">
+            <div class="project-media">
+              <img
+                src="./assets/cetakkartu.png"
+                alt="Web Cetak Kartu Pelajar"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-id-card"></i>
+                <span>Administrative Tool</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Batch Data Automation &amp; Print Layout</span>
+              <h3 class="project-title">Web Cetak Kartu Pelajar — ID Card Generator</h3>
+              <p class="project-desc">
+                Automated student ID card batch generator. Synchronizes roster data from Google Sheets API, processes student portraits, and formats pixel-perfect A4 printing sheets.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Google Sheets API</span>
+                <span class="tech-tag">Cloudinary</span>
+                <span class="tech-tag">CSS Print Media</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://cetak-kartu-pelajar.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> See Live
+                </a>
+                <a
+                  href="https://github.com/Doni354/cetak-kartu-pelajar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-secondary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="cetakkartu"
+                  style="padding:0.55rem 0.9rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 15: IoT RFID Attendance System -->
+          <article class="project-card" data-category="realtime">
+            <div class="project-media">
+              <img
+                src="./assets/rfid.png"
+                alt="IoT RFID Attendance"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-wifi"></i>
+                <span>IoT &amp; Cloud Sync</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Embedded Telemetry &amp; Cloud Logging</span>
+              <h3 class="project-title">IoT RFID Attendance — Microcontroller to Cloud</h3>
+              <p class="project-desc">
+                Autonomous WiFi-enabled RFID attendance hardware. Reads contactless student smartcards and streams verified, timestamped logs straight to Google Sheets in real-time.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">ESP32 / ESP8266</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">RFID RC522</span>
+                <span class="tech-tag">Google Sheets API</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://github.com/Doni354/Absensi-RFID"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-secondary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-primary view-project-details-btn"
+                  data-project="rfid"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 16: Riset BEM Goes to Desa 2026 -->
+          <article class="project-card" data-category="realtime fullstack webapp">
+            <div class="project-media">
+              <img
+                src="./assets/BEM.png"
+                alt="Riset BEM Goes to Desa 2026 Web and Hardware Platform"
+                class="project-img"
+                loading="lazy"
+              />
+              <div class="project-media-badge">
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <span>Web &amp; IoT Hardware</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <span class="project-category">Community Tech &amp; IoT Hardware</span>
+              <h3 class="project-title">Riset BEM Goes to Desa 2026 — Web Platform &amp; Hardware Alarm</h3>
+              <p class="project-desc">
+                Integrated community platform and hardware intrusion alarm developed for BEM Goes to Desa 2026. Pairs a dedicated web platform with PIR motion sensor hardware for rural perimeter protection.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Web Platform</span>
+                <span class="tech-tag">Microcontroller</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">PIR Sensor</span>
+                <span class="tech-tag">IoT Security</span>
+              </div>
+
+              <div class="project-actions">
+                <a
+                  href="https://risetbemgtd2026.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-primary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Web
+                </a>
+                <a
+                  href="https://github.com/Doni354/risetBEMGTD2026"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-embossed btn-embossed-secondary"
+                  style="padding:0.55rem 1.1rem;font-size:0.875rem;"
+                >
+                  <i class="fa-brands fa-github"></i> Web Git
+                </a>
+                <button
+                  type="button"
+                  class="btn-embossed btn-embossed-secondary view-project-details-btn"
+                  data-project="piralarm"
+                  style="padding:0.55rem 0.9rem;font-size:0.875rem;"
+                >
+                  <i class="fa-solid fa-circle-info"></i>
+                </button>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -702,6 +1324,21 @@
                     <li>Architecting real-time web applications integrated with Firebase Firestore &amp; Realtime Database.</li>
                     <li>Connecting IoT hardware telemetry data to reactive browser dashboards for instant fleet monitoring.</li>
                     <li>Implementing optimized frontend interfaces with high responsiveness and low data overhead.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Item 2: PT Elecomp -->
+              <div class="timeline-item">
+                <div class="timeline-node"></div>
+                <div class="timeline-card">
+                  <div class="timeline-date">2024/07 — 2024/12</div>
+                  <h4 class="timeline-role">Web Developer &amp; SEO Specialist (Internship)</h4>
+                  <div class="timeline-org">PT Elecomp Software House</div>
+                  <ul class="timeline-bullets">
+                    <li>Engineered ~25 client company profile websites with responsive web architectures.</li>
+                    <li>Executed on-page technical SEO audits boosting organic visibility and search indexing.</li>
+                    <li>Performed Core Web Vitals optimization achieving high mobile Google PageSpeed ratings.</li>
                   </ul>
                 </div>
               </div>
@@ -794,14 +1431,24 @@
         <div class="awards-grid">
           <!-- Award 1: FIKSI 2024 -->
           <div class="award-card featured">
-            <div class="award-icon-box">
-              <i class="fa-solid fa-trophy"></i>
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:1rem;">
+              <div class="award-icon-box">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div class="award-year">2024 • National Level</div>
             </div>
-            <div class="award-year">2024 • National Level</div>
+            <div class="award-card-media">
+              <img
+                src="./assets/fiksi2024.png"
+                alt="FIKSI 2024 Gold Medalist National Champion"
+                class="award-card-img"
+                loading="lazy"
+              />
+            </div>
             <h3 class="award-title">Gold Medalist / National Winner</h3>
             <p class="award-org">
               <strong>FIKSI 2024 (Festival Inovasi dan Kewirausahaan Siswa Indonesia)</strong><br />
-              Bidang Teknologi Digital — Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia.
+              Bidang Teknologi Digital (VeLinked Team — SMKN 1 Boyolangu). Diselenggarakan oleh Puspresnas, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia.
             </p>
           </div>
 
@@ -1210,52 +1857,6 @@
   </dialog>
 
   <!-- ==========================================================================
-       CV & Resume Native Dialog Modal
-       ========================================================================== -->
-  <dialog id="cvModal" class="custom-modal" aria-labelledby="cvModalTitle">
-    <div class="modal-header">
-      <div>
-        <span class="project-category" style="font-size:0.75rem;">Official Documentation</span>
-        <h3 id="cvModalTitle" class="modal-title">Curriculum Vitae — Aidil Fitrah Romadhoni</h3>
-      </div>
-      <button type="button" id="closeCVModalBtn" class="modal-close-btn" aria-label="Close modal">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-    </div>
-
-    <div class="modal-body" style="text-align:center;padding:2.5rem 1.75rem;">
-      <div style="width:72px;height:72px;border-radius:var(--radius-xl);background:var(--accent-primary-light);color:var(--accent-primary);display:inline-flex;align-items:center;justify-content:center;font-size:2rem;margin-bottom:1rem;">
-        <i class="fa-solid fa-file-pdf"></i>
-      </div>
-
-      <h4 style="font-size:1.35rem;font-weight:700;margin-bottom:0.5rem;">
-        Aidil Fitrah Romadhoni, S.Kom (Cand.)
-      </h4>
-      <p style="color:var(--text-secondary);max-width:480px;margin:0 auto 1.75rem;line-height:1.55;font-size:0.95rem;">
-        Download the official comprehensive Curriculum Vitae featuring detailed academic tracks, Haltech production experience, technical competencies, and national awards.
-      </p>
-
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-        <a
-          href="./assets/CV.pdf"
-          target="_blank"
-          download="Aidil_Fitrah_Romadhoni_CV.pdf"
-          class="btn-embossed btn-embossed-primary"
-        >
-          <i class="fa-solid fa-download"></i> Download Official CV (PDF)
-        </a>
-        <a
-          href="./assets/CV.Aidil%20Fitrah%20Romadhoni.pdf"
-          target="_blank"
-          class="btn-embossed btn-embossed-secondary"
-        >
-          <i class="fa-solid fa-eye"></i> View Alternative CV
-        </a>
-      </div>
-    </div>
-  </dialog>
-
-  <!-- ==========================================================================
        Toast Container for Floating Notifications
        ========================================================================== -->
   <div id="toastContainer" class="toast-container" aria-live="polite"></div>
@@ -1278,7 +1879,7 @@
           <li><a href="#awards">Awards</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#" class="open-cv-modal-btn">Curriculum Vitae</a></li>
+          <li><a href="./assets/CV.pdf">Download CV</a></li>
         </ul>
 
         <div class="social-cards-grid" style="max-width:480px;margin:0 auto;">

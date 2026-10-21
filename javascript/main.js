@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initNav();
   initProjectFilters();
   initProjectModals();
-  initCVModal();
   initCopyActions();
   initContactForm();
   initKeyboardShortcuts();
@@ -273,6 +272,201 @@ const projectsData = {
     tech: ["PHP", "MySQL", "JavaScript", "Role Auth", "Data Tables", "CSS3"],
     liveUrl: null,
     githubUrl: "https://github.com/Doni354/E-PPG"
+  },
+  smartschool: {
+    title: "SmartSchool — Student Permission Management Platform",
+    category: "Production Web App • School Governance",
+    image: "assets/smartschool.png",
+    description: "SmartSchool is an active, production-grade web application engineered to manage and streamline student leave permissions across school institutions. Actively deployed and trusted to handle over 1,000+ permit requests with complete digital verification trails.",
+    problemSolution: "Paper-based school permission slips are notoriously vulnerable to loss, unauthorized approval, and lack of accountability. SmartSchool replaces paper slips with an automated cloud approval pipeline, enabling administrative staff and teachers to instantly inspect student attendance records.",
+    features: [
+      "Digital student leave authorization handling 1,000+ live permit records",
+      "Administrative approval dashboard with instant search and status filtering",
+      "Real-time database integration via Firebase Firestore",
+      "Mobile-friendly interface accessible across smartphones and classroom desktops"
+    ],
+    tech: ["Firebase", "JavaScript", "Cloud Firestore", "Responsive UI"],
+    liveUrl: "https://smartschool-34158.web.app/",
+    githubUrl: null
+  },
+  infria: {
+    title: "INFRIA — Universal Conversational AI Infrastructure",
+    category: "PKM-KI • AI Infrastructure & Platform",
+    image: "assets/infria.png",
+    description: "INFRIA (AI Infrastructure for Applications) is an enterprise AI backend layer designed to bridge disparate software ecosystems with conversational AI, RAG knowledge retrieval, and dynamic function calling without requiring developers to build custom AI pipelines from scratch.",
+    problemSolution: "Integrating specialized AI conversational workflows into existing mobile or web apps typically requires months of custom model fine-tuning and backend middleware. INFRIA solves this by offering a unified API gateway and SDKs that orchestrate LLM requests, dynamic function execution, and workflow automations seamlessly.",
+    features: [
+      "Unified AI API gateway & microservice architecture for client applications",
+      "Dynamic Function Calling enabling AI to trigger application actions directly",
+      "Retrieval-Augmented Generation (RAG) knowledge retrieval pipelines",
+      "Workflow automation and webhook triggers powered by n8n and Node.js",
+      "Flutter SDK and Next.js portal integration for rapid deployment"
+    ],
+    tech: ["Next.js", "Node.js", "Express", "Firebase Functions", "Firestore", "n8n", "Flutter SDK", "LLM"],
+    liveUrl: null,
+    githubUrl: null
+  },
+  vorce: {
+    title: "Vorce — Business Collaboration & Task Management Backend",
+    category: "Production Backend • Enterprise SaaS",
+    image: "assets/vorce.png",
+    description: "Vorce is an enterprise operations and team collaboration platform. As backend engineer, architected the core RESTful task management endpoints, multi-tenant company schemas, state transition workflows, and Firestore security access levels.",
+    problemSolution: "Modern enterprise teams struggle with fractured task coordination and lack of verified proof-of-work evidence. Designed robust backend data models (/companies/{idCompany}/tasks/{taskId}) supporting seamless status transitions and role-based permissions.",
+    features: [
+      "Scalable RESTful API for task lifecycle management (In-Progress, Pending, Completed)",
+      "Multi-tenant company data isolation and role authorization in Firestore",
+      "Task completion evidence submission and gamified point reward calculations",
+      "Admin verification workflows and automated state synchronization",
+      "Production deployment supporting the official Vorce mobile app on Google Play"
+    ],
+    tech: ["Node.js", "Firebase Firestore", "RESTful API", "Cloud Functions", "GCP"],
+    liveUrl: "https://vorce.id/",
+    githubUrl: null
+  },
+  spmb: {
+    title: "SPMB / PPDB Tulungagung — Admissions Dashboard & Load Testing",
+    category: "Client Project • Government Admissions",
+    image: "assets/spmb.png",
+    description: "Tailored administrative dashboard and frontend UI redesign for the Junior High School (SMP) student admissions system in Tulungagung Regency. Executed high-concurrency load and stress testing using the k6 engine.",
+    problemSolution: "Admissions periods produce massive concurrent spikes that often bring regional registration servers down. Conducted systematic load testing simulating thousands of concurrent applicants with k6, benchmarked bottlenecks, and provided optimized dashboard views for school operators.",
+    features: [
+      "Modernized administrative dashboard for applicant processing and verification",
+      "High-concurrency load testing and bottleneck profiling with k6",
+      "Real-time applicant distribution statistics and regional quota visualization",
+      "Optimized frontend asset delivery for high-traffic peak periods"
+    ],
+    tech: ["Web Development", "k6 (Load Testing)", "JavaScript", "Bootstrap", "REST API"],
+    liveUrl: null,
+    githubUrl: null
+  },
+  elecomp: {
+    title: "PT Elecomp Software House — 25+ Client Websites & SEO Optimization",
+    category: "6-Month Internship • Software House",
+    image: "assets/elecomp.png",
+    description: "Completed an intensive 6-month software house internship at PT Elecomp Software House (July – December 2024), developing around 25 client company profile websites, technical on-page SEO architectures, and Google PageSpeed optimizations.",
+    problemSolution: "Businesses frequently suffer from slow website load times and low Google visibility. Conducted audits, eliminated render-blocking resources, optimized image compression pipelines, and built high-converting responsive company profiles.",
+    features: [
+      "Engineered ~25 responsive company profile websites tailored to business clients",
+      "On-page technical SEO optimization boosting Google search indexation",
+      "Core Web Vitals & PageSpeed optimization achieving high mobile scores",
+      "Cross-browser testing and responsive design implementation"
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript", "PHP", "SEO Tuning", "PageSpeed Insights"],
+    liveUrl: null,
+    githubUrl: null
+  },
+  wisnufarma: {
+    title: "WisnuFarma & CMS Module — Pharmacy Web Application",
+    category: "Haltec Client • Healthcare Commerce",
+    image: "assets/wisnufarma.png",
+    description: "Developed core CMS modules and pharmacy management features for the WisnuFarma web application in collaboration with Haltec / HalteCreative software house.",
+    problemSolution: "Pharmaceutical businesses need secure, structured administrative control to manage medicine inventories, categories, and public informational portals. Built customized CMS modules integrated directly into the production web system.",
+    features: [
+      "Dedicated CMS administrative control panel for medicine and content management",
+      "Secure authentication and session verification protocols",
+      "Clean modular code integrated into the production WisnuFarma platform",
+      "Responsive user interface optimized for desktop and mobile pharmacists"
+    ],
+    tech: ["PHP", "JavaScript", "MySQL", "CMS Architecture", "Responsive CSS"],
+    liveUrl: "https://wisnu-farma.com/login",
+    githubUrl: null
+  },
+  noury: {
+    title: "Noury — POS & Pre-Order Commerce Platform",
+    category: "Academic Entrepreneurship • Commerce Platform",
+    image: "assets/noury.png",
+    description: "Noury is a Point-of-Sale (POS) and merchandise pre-order management platform created for university entrepreneurship initiatives. Encapsulates transaction accounting, inventory tracking, and customer pre-order workflows.",
+    problemSolution: "Pre-order merchandise campaigns frequently suffer from disorganized order logs and payment confusion. Noury unifies order intake, payment verification, and delivery tracking in one intuitive web platform.",
+    features: [
+      "Point of Sale (POS) transaction register with rapid order entry",
+      "Pre-order merchandise management tracking customer order stages",
+      "Inventory tracking with stock availability limits",
+      "Cloudinary asset storage for product photography and promotional banners"
+    ],
+    tech: ["Next.js", "Firebase", "Cloudinary", "Vercel", "TailwindCSS"],
+    liveUrl: "https://noury-se.vercel.app/",
+    githubUrl: "https://github.com/Doni354/black-market"
+  },
+  simplempg: {
+    title: "Simple MPG — Instant Browser Mini-Games Hub",
+    category: "Web Platform • Game Development",
+    image: "assets/simplempg.png",
+    description: "Simple MPG (Multiplayer Games) is an instant-play browser gaming platform requiring zero downloads. Features Tic Tac Toe with intelligent AI opponent algorithms and real-time multiplayer synced via Firebase.",
+    problemSolution: "Casual online games are usually weighed down by mandatory app downloads and intrusive ads. Simple MPG provides a featherweight, instant-play web hub where users can immediately challenge an AI or invite friends via link.",
+    features: [
+      "Zero-install browser gameplay running on lightweight native canvas & DOM",
+      "Tic Tac Toe with smart AI opponent powered by minimax decision algorithms",
+      "Real-time peer-to-peer multiplayer mode synchronized via Firebase",
+      "Clean tactile UI designed for touchscreens and desktop screens alike"
+    ],
+    tech: ["JavaScript (ES6+)", "Firebase Realtime DB", "HTML5 Canvas", "CSS3 Animations"],
+    liveUrl: "https://simplempg-6c08f.web.app/",
+    githubUrl: null
+  },
+  classlyai: {
+    title: "Classly AI — AI-Augmented Learning Management System",
+    category: "ZTE Competition • AI EdTech Concept",
+    image: "assets/classlyai.png",
+    description: "Backend developer and AI integration specialist for an AI-powered Learning Management System (LMS) created for the national ZTE innovation competition. Concept served as the foundational forerunner to INFRIA.",
+    problemSolution: "Conventional LMS portals present one-size-fits-all materials without interactive feedback. Integrated conversational AI assist to guide learners through complex coursework and provide personalized hints.",
+    features: [
+      "Conversational AI tutoring integration for student assignment assistance",
+      "Backend REST API architecture supporting course materials and submissions",
+      "Evaluated architectural bottlenecks leading to the creation of universal AI backend (INFRIA)",
+      "Multi-role user authentication separating students, teachers, and guardians"
+    ],
+    tech: ["Node.js", "Express", "AI Integration", "RESTful API", "Cloud Storage"],
+    liveUrl: null,
+    githubUrl: null
+  },
+  cetakkartu: {
+    title: "Web Cetak Kartu Pelajar — ID Card Generator",
+    category: "Administrative Tool • Automation",
+    image: "assets/cetakkartu.png",
+    description: "An automated web application designed to generate student ID cards in bulk. Fetches roster data from Google Sheets API, pairs student portraits, and formats pixel-perfect A4 printing templates.",
+    problemSolution: "Creating hundreds of student ID cards manually in graphic software consumes days of repetitive labor. This tool automates data ingestion, photo alignment, and A4 print layout generation in seconds.",
+    features: [
+      "Automated roster synchronization from Google Sheets API",
+      "Cloudinary portrait image processing and dynamic scaling",
+      "Pixel-perfect A4 grid print layout calibrated for standard laminators",
+      "Automated student barcode and QR code generation"
+    ],
+    tech: ["JavaScript", "Google Sheets API", "Cloudinary", "CSS Print Media", "Vercel"],
+    liveUrl: "https://cetak-kartu-pelajar.vercel.app/",
+    githubUrl: "https://github.com/Doni354/cetak-kartu-pelajar"
+  },
+  rfid: {
+    title: "IoT RFID Attendance System — Microcontroller to Cloud",
+    category: "IoT & Embedded • Cloud Telemetry",
+    image: "assets/rfid.png",
+    description: "An internet-connected hardware attendance solution combining RFID contactless smartcard readers, an ESP32/microcontroller, and real-time Google Sheets cloud logging.",
+    problemSolution: "Physical attendance sheets cause administrative queues and manual entry errors. Built an autonomous IoT scanner that reads contactless RFID cards and automatically logs verified timestamps to the cloud.",
+    features: [
+      "High-speed contactless card UID scanning via RC522 RFID module",
+      "Autonomous WiFi telemetry streaming attendance records to Google Sheets",
+      "Local audio-visual status feedback (LED indicator & buzzer confirmation)",
+      "Tamper-resistant student identification and timestamp verification"
+    ],
+    tech: ["ESP32 / ESP8266", "C++", "RFID RC522", "Google Sheets API", "IoT Telemetry"],
+    liveUrl: null,
+    githubUrl: "https://github.com/Doni354/Absensi-RFID"
+  },
+  piralarm: {
+    title: "Riset BEM Goes to Desa 2026 — Web Platform & Hardware Security",
+    category: "Community Tech & IoT Hardware",
+    image: "assets/BEM.png",
+    description: "An integrated community web platform and hardware intrusion detection system created for BEM Goes to Desa 2026. Pairs a dedicated real-time web portal with embedded PIR sensor hardware for rural perimeter security.",
+    problemSolution: "Rural villages lack accessible digital communication channels and affordable perimeter security. This project pairs an easy-to-use web portal for village initiatives with autonomous, low-power PIR motion alarms.",
+    features: [
+      "Dedicated community research web platform deployed at risetbemgtd2026.vercel.app",
+      "Autonomous PIR motion detector hardware triggering deterrent acoustic alarms",
+      "Dual repositories: Hardware firmware (C++) and web application (JavaScript)",
+      "Low-power off-grid embedded architecture designed for rural community outposts"
+    ],
+    tech: ["Web Platform", "Microcontroller", "C++", "PIR Sensor", "IoT Security"],
+    liveUrl: "https://risetbemgtd2026.vercel.app/",
+    githubUrl: "https://github.com/Doni354/risetBEMGTD2026",
+    hardwareUrl: "https://github.com/Doni354/risetBEMGTD2026-Hardware"
   }
 };
 
@@ -320,6 +514,17 @@ function initProjectModals() {
       // Actions
       const liveBtn = document.getElementById('modalLiveLink');
       const ghBtn = document.getElementById('modalGithubLink');
+      let hwBtn = document.getElementById('modalHardwareLink');
+
+      if (!hwBtn && data.hardwareUrl && ghBtn && ghBtn.parentNode) {
+        hwBtn = document.createElement('a');
+        hwBtn.id = 'modalHardwareLink';
+        hwBtn.target = '_blank';
+        hwBtn.rel = 'noopener noreferrer';
+        hwBtn.className = 'btn-embossed btn-embossed-secondary';
+        hwBtn.innerHTML = '<i class="fa-solid fa-microchip"></i> Hardware Repo';
+        ghBtn.parentNode.insertBefore(hwBtn, ghBtn.nextSibling);
+      }
 
       if (data.liveUrl) {
         liveBtn.href = data.liveUrl;
@@ -331,8 +536,18 @@ function initProjectModals() {
       if (data.githubUrl) {
         ghBtn.href = data.githubUrl;
         ghBtn.style.display = 'inline-flex';
+        ghBtn.innerHTML = data.hardwareUrl ? '<i class="fa-brands fa-github"></i> Web Repo' : '<i class="fa-brands fa-github"></i> Repository';
       } else {
         ghBtn.style.display = 'none';
+      }
+
+      if (hwBtn) {
+        if (data.hardwareUrl) {
+          hwBtn.href = data.hardwareUrl;
+          hwBtn.style.display = 'inline-flex';
+        } else {
+          hwBtn.style.display = 'none';
+        }
       }
 
       modal.showModal();
@@ -346,60 +561,26 @@ function initProjectModals() {
     });
   }
 
-  // Backdrop click closes modal
-  modal.addEventListener('click', (e) => {
-    const dialogDimensions = modal.getBoundingClientRect();
-    if (
-      e.clientX < dialogDimensions.left ||
-      e.clientX > dialogDimensions.right ||
-      e.clientY < dialogDimensions.top ||
-      e.clientY > dialogDimensions.bottom
-    ) {
-      modal.close();
-    }
-  });
+    // Backdrop click closes modal
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.close();
+        return;
+      }
+      const dialogDimensions = modal.getBoundingClientRect();
+      if (
+        e.clientX < dialogDimensions.left ||
+        e.clientX > dialogDimensions.right ||
+        e.clientY < dialogDimensions.top ||
+        e.clientY > dialogDimensions.bottom
+      ) {
+        modal.close();
+      }
+    });
 }
 
 /* ==========================================================================
-   6. CV / Resume Modal
-   ========================================================================== */
-function initCVModal() {
-  const cvModal = document.getElementById('cvModal');
-  const openCVBtns = document.querySelectorAll('.open-cv-modal-btn');
-  const closeCVBtn = document.getElementById('closeCVModalBtn');
-
-  if (!cvModal) return;
-
-  openCVBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      playClickSound();
-      cvModal.showModal();
-    });
-  });
-
-  if (closeCVBtn) {
-    closeCVBtn.addEventListener('click', () => {
-      playClickSound();
-      cvModal.close();
-    });
-  }
-
-  cvModal.addEventListener('click', (e) => {
-    const dialogDimensions = cvModal.getBoundingClientRect();
-    if (
-      e.clientX < dialogDimensions.left ||
-      e.clientX > dialogDimensions.right ||
-      e.clientY < dialogDimensions.top ||
-      e.clientY > dialogDimensions.bottom
-    ) {
-      cvModal.close();
-    }
-  });
-}
-
-/* ==========================================================================
-   7. Copy-to-Clipboard & Toast Alerts
+   6. Copy-to-Clipboard & Toast Alerts
    ========================================================================== */
 function initCopyActions() {
   const copyButtons = document.querySelectorAll('.copy-trigger');
