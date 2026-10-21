@@ -451,22 +451,37 @@ const projectsData = {
     liveUrl: null,
     githubUrl: "https://github.com/Doni354/Absensi-RFID"
   },
-  piralarm: {
-    title: "Riset BEM Goes to Desa 2026 — Web Platform & Hardware Security",
-    category: "Community Tech & IoT Hardware",
+  bemweb: {
+    title: "Riset BEM Goes to Desa 2026 — Web Platform",
+    category: "Community Platform • Information Portal",
     image: "assets/BEM.png",
-    description: "An integrated community web platform and hardware intrusion detection system created for BEM Goes to Desa 2026. Pairs a dedicated real-time web portal with embedded PIR sensor hardware for rural perimeter security.",
-    problemSolution: "Rural villages lack accessible digital communication channels and affordable perimeter security. This project pairs an easy-to-use web portal for village initiatives with autonomous, low-power PIR motion alarms.",
+    description: "Portal web publikasi resmi untuk program Riset BEM Goes to Desa 2026. Menyajikan dokumentasi riset desa, transparansi program pengabdian, dan kanal informasi bagi masyarakat serta mahasiswa.",
+    problemSolution: "Program pengabdian masyarakat sering terkendala keterbatasan akses informasi publik dan pelaporan dokumentasi yang terpusat. Dibangun web platform cepat dan responsif agar luaran riset dan kegiatan mahasiswa dapat diakses transparan oleh seluruh pihak.",
     features: [
-      "Dedicated community research web platform deployed at risetbemgtd2026.vercel.app",
-      "Autonomous PIR motion detector hardware triggering deterrent acoustic alarms",
-      "Dual repositories: Hardware firmware (C++) and web application (JavaScript)",
-      "Low-power off-grid embedded architecture designed for rural community outposts"
+      "Portal web publikasi riset dan dokumentasi kegiatan BEM Goes to Desa 2026",
+      "Deployed live di risetbemgtd2026.vercel.app dengan performa cepat dan responsif",
+      "Antarmuka yang bersih dan mudah dinavigasi oleh masyarakat maupun civitas akademika",
+      "Struktur konten terorganisir untuk pelaporan berkala hasil penelitian desa"
     ],
-    tech: ["Web Platform", "Microcontroller", "C++", "PIR Sensor", "IoT Security"],
+    tech: ["JavaScript", "Web Platform", "Responsive UI", "Vercel"],
     liveUrl: "https://risetbemgtd2026.vercel.app/",
-    githubUrl: "https://github.com/Doni354/risetBEMGTD2026",
-    hardwareUrl: "https://github.com/Doni354/risetBEMGTD2026-Hardware"
+    githubUrl: "https://github.com/Doni354/risetBEMGTD2026"
+  },
+  piralarm: {
+    title: "IoT PIR Motion Alarm — BEM GTD 2026 Perimeter Security",
+    category: "IoT & Embedded Systems • Hardware Security",
+    image: "assets/piralarm.png",
+    description: "Perangkat keras pendeteksi intrusi perimeter berbasis sensor gerak PIR dan mikrokontroler untuk sistem keamanan posko desa BEM Goes to Desa 2026. Dirancang hemat daya dengan pemicu alarm akustik instan saat terdeteksi pergerakan.",
+    problemSolution: "Posko pengabdian desa di area pedalaman seringkali minim penerangan dan rawan intrusi malam hari. Dibuat sistem alarm motion detection berbasis PIR dengan konsumsi daya rendah dan aktuator alarm suara yang efektif memberi peringatan perimeter.",
+    features: [
+      "Sistem deteksi intrusi perimeter berbasis sensor Passive Infrared (PIR)",
+      "Firmware mikrokontroler C++ teroptimasi dengan konsumsi daya efisien",
+      "Pemicu respon instan dengan aktivasi alarm akustik saat sensor terpicu",
+      "Sirkuit mandiri yang tangguh dan portabel untuk dipasang di berbagai titik posko"
+    ],
+    tech: ["Microcontroller", "C++", "PIR Motion Sensor", "Acoustic Alarm", "Hardware"],
+    liveUrl: null,
+    githubUrl: "https://github.com/Doni354/risetBEMGTD2026-Hardware"
   }
 };
 
@@ -514,17 +529,8 @@ function initProjectModals() {
       // Actions
       const liveBtn = document.getElementById('modalLiveLink');
       const ghBtn = document.getElementById('modalGithubLink');
-      let hwBtn = document.getElementById('modalHardwareLink');
-
-      if (!hwBtn && data.hardwareUrl && ghBtn && ghBtn.parentNode) {
-        hwBtn = document.createElement('a');
-        hwBtn.id = 'modalHardwareLink';
-        hwBtn.target = '_blank';
-        hwBtn.rel = 'noopener noreferrer';
-        hwBtn.className = 'btn-embossed btn-embossed-secondary';
-        hwBtn.innerHTML = '<i class="fa-solid fa-microchip"></i> Hardware Repo';
-        ghBtn.parentNode.insertBefore(hwBtn, ghBtn.nextSibling);
-      }
+      const hwBtn = document.getElementById('modalHardwareLink');
+      if (hwBtn) hwBtn.remove();
 
       if (data.liveUrl) {
         liveBtn.href = data.liveUrl;
@@ -536,18 +542,11 @@ function initProjectModals() {
       if (data.githubUrl) {
         ghBtn.href = data.githubUrl;
         ghBtn.style.display = 'inline-flex';
-        ghBtn.innerHTML = data.hardwareUrl ? '<i class="fa-brands fa-github"></i> Web Repo' : '<i class="fa-brands fa-github"></i> Repository';
+        ghBtn.innerHTML = (projectId === 'piralarm' || projectId === 'rfid')
+          ? '<i class="fa-solid fa-microchip"></i> Hardware Repo'
+          : '<i class="fa-brands fa-github"></i> Repository';
       } else {
         ghBtn.style.display = 'none';
-      }
-
-      if (hwBtn) {
-        if (data.hardwareUrl) {
-          hwBtn.href = data.hardwareUrl;
-          hwBtn.style.display = 'inline-flex';
-        } else {
-          hwBtn.style.display = 'none';
-        }
       }
 
       modal.showModal();
