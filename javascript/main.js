@@ -561,22 +561,18 @@ function initProjectModals() {
     });
   }
 
-    // Backdrop click closes modal
-    modal.addEventListener('click', (e) => {
-      if (e.target === modal) {
-        modal.close();
-        return;
-      }
-      const dialogDimensions = modal.getBoundingClientRect();
-      if (
-        e.clientX < dialogDimensions.left ||
-        e.clientX > dialogDimensions.right ||
-        e.clientY < dialogDimensions.top ||
-        e.clientY > dialogDimensions.bottom
-      ) {
-        modal.close();
-      }
-    });
+  // Backdrop click closes modal
+  modal.addEventListener('click', (e) => {
+    const dialogDimensions = modal.getBoundingClientRect();
+    if (
+      e.clientX < dialogDimensions.left ||
+      e.clientX > dialogDimensions.right ||
+      e.clientY < dialogDimensions.top ||
+      e.clientY > dialogDimensions.bottom
+    ) {
+      modal.close();
+    }
+  });
 }
 
 /* ==========================================================================

@@ -1451,68 +1451,48 @@ section {
 
 /* --- Native Dialog / Modals --- */
 dialog.custom-modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+  margin: auto;
   padding: 0;
   border: 1px solid var(--border-color);
   border-radius: var(--radius-2xl, 24px);
   background: var(--bg-surface);
   color: var(--text-primary);
   max-width: 760px;
-  width: min(760px, calc(100vw - 2rem));
-  max-height: calc(100vh - 2.5rem);
-  max-height: calc(100dvh - 2.5rem);
-  height: auto;
+  width: calc(100% - 2rem);
   box-shadow: var(--shadow-lg);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   overflow: hidden;
   outline: none;
-  box-sizing: border-box;
-}
-
-dialog.custom-modal:not([open]) {
-  display: none !important;
-}
-
-dialog.custom-modal[open] {
-  display: flex !important;
-  flex-direction: column !important;
-  animation: modalFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 dialog.custom-modal::backdrop {
-  background: rgba(10, 15, 25, 0.75);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  animation: backdropFadeIn 0.2s ease forwards;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
-@keyframes backdropFadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* Smooth Modal Animation */
+dialog.custom-modal[open] {
+  animation: modalFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 @keyframes modalFadeIn {
   from {
     opacity: 0;
-    transform: translate(-50%, -48%) scale(0.97);
+    transform: scale(0.96) translateY(12px);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: scale(1) translateY(0);
   }
 }
 
 .modal-header {
-  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.15rem 1.75rem;
+  padding: 1.25rem 1.75rem;
   border-bottom: 1px solid var(--border-color);
   background: var(--bg-surface-nested);
 }
@@ -1544,12 +1524,9 @@ dialog.custom-modal::backdrop {
 }
 
 .modal-body {
-  flex: 1 1 auto;
-  min-height: 0;
-  max-height: 100%;
+  padding: 1.75rem;
+  max-height: 75vh;
   overflow-y: auto;
-  overscroll-behavior: contain;
-  padding: 1.5rem 1.75rem;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -1559,18 +1536,17 @@ dialog.custom-modal::backdrop {
   width: 100%;
   border-radius: var(--radius-md);
   border: 1px solid var(--border-color);
-  max-height: 300px;
+  max-height: 360px;
   object-fit: contain;
   background-color: var(--bg-canvas);
 }
 
 .modal-footer {
-  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 1rem;
-  padding: 1rem 1.75rem;
+  padding: 1.25rem 1.75rem;
   border-top: 1px solid var(--border-color);
   background: var(--bg-surface-nested);
 }
@@ -1668,27 +1644,6 @@ dialog.custom-modal::backdrop {
 .back-to-top-btn:hover {
   color: var(--accent-primary);
   border-color: var(--accent-primary);
-}
-
-@media (max-width: 768px) {
-  dialog.custom-modal {
-    width: calc(100vw - 1rem);
-    max-height: calc(100vh - 1.5rem);
-    max-height: calc(100dvh - 1.5rem);
-    border-radius: var(--radius-xl, 16px);
-  }
-  .modal-header {
-    padding: 0.85rem 1.15rem;
-  }
-  .modal-body {
-    padding: 1rem 1.15rem;
-    gap: 1rem;
-  }
-  .modal-footer {
-    padding: 0.75rem 1.15rem;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
 }
 
 .award-card-media {
