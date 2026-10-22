@@ -205,85 +205,85 @@ function initProjectFilters() {
    ========================================================================== */
 const projectsData = {
   velinked: {
-    title: "VeLinked — Real-Time IoT Fleet & Device Telemetry",
-    category: "IoT & Real-Time Telemetry Platform",
+    title: "VeLinked — Real-Time IoT Fleet Telemetry (FIKSI 2024 Gold Winner)",
+    category: "IoT Platform • FIKSI 2024 National Winner (Gold Medal)",
     image: "assets/VeLinked.png",
-    description: "VeLinked is a state-of-the-art vehicle and device telematics dashboard engineered to communicate bi-directionally with connected hardware via Firebase. Designed for fleet management, the platform tracks real-time sensor streams, battery metrics, engine diagnostics, and geographical coordinates with sub-second latency.",
-    problemSolution: "Traditional fleet management suffers from disjointed data reporting and delayed vehicle status updates. VeLinked solves this by creating a unified reactive data bridge between ESP32/IoT nodes and a browser interface using Firebase Realtime Database and Firestore, allowing operators to monitor fleet health and receive instant alarms.",
+    description: "VeLinked is our national gold-medal-winning project at FIKSI 2024 (Festival Inovasi dan Kewirausahaan Siswa Indonesia, Kemendikbud). It connects physical IoT hardware nodes to a real-time web dashboard via Firebase to monitor fleet metrics such as speed, GPS coordinates, battery voltage, and engine diagnostics with instant live updates.",
+    problemSolution: "Vehicle fleet management often suffers from disconnected hardware reporting and delayed status logs. VeLinked solves this by creating a reliable telemetry bridge between ESP32 microcontroller nodes and a web dashboard using Firebase Realtime Database, giving operators real-time fleet visibility and instant alerts.",
     features: [
+      "National Winner (Gold Medal) in Digital Technology at FIKSI 2024 (Kemendikbud)",
       "Real-time bidirectional device synchronization using Firebase",
-      "Live sensor visualization (GPS, speed, battery, diagnostic status)",
-      "Multi-vehicle monitoring dashboard with online/offline health badges",
-      "Instant push alerts on critical anomaly detection",
-      "Responsive, touch-friendly UI for operations centers and mobile tablets"
+      "Live sensor visualization (GPS, speed, battery voltage, diagnostic alerts)",
+      "Multi-vehicle monitoring dashboard with online/offline status tracking",
+      "Responsive and mobile-friendly interface for field monitoring"
     ],
-    tech: ["Firebase Firestore", "Realtime Database", "JavaScript (ES6+)", "IoT Telemetry", "WebSockets", "CSS3 Grid"],
+    tech: ["Firebase Firestore", "Realtime Database", "JavaScript (ES6+)"],
     liveUrl: "https://velinked-web.web.app/",
     githubUrl: null
   },
   kasir: {
-    title: "Kasir.IDon — Enterprise Point-of-Sale (POS) & Retail ERP",
-    category: "Full-Stack System • UKK SMK Certified",
+    title: "Kasir.IDon — Point of Sale (POS) & Inventory System",
+    category: "Full-Stack System • UKK SMK Project",
     image: "assets/KasirIDon.png",
-    description: "Kasir.IDon is an enterprise-grade POS and inventory accounting software crafted for retail and commercial businesses. Built as a premier competency certification (UKK RPL) project, it encapsulates full retail lifecycle operations: multi-role access control, barcode-ready sales terminals, inventory ledgering, automated stock thresholds, and receipt printing.",
-    problemSolution: "Small-to-medium retail outlets often lose revenue due to inaccurate inventory counts and slow checkout processing. Kasir.IDon addresses this with an optimized transactional database model, automated low-stock notifications, customer loyalty discounts, and visual sales velocity charts.",
+    description: "Kasir.IDon is a web-based Point of Sale and inventory management app built for my UKK competency examination at SMK Negeri 1 Boyolangu. It covers sales transactions, role-based logins, inventory stock alerts, and receipt printing.",
+    problemSolution: "Retail shops often struggle with inventory discrepancies and slow checkouts. Kasir.IDon provides a clean transaction interface with automatic stock calculation, membership discount points, and sales summary charts.",
     features: [
-      "Multi-role role-based authentication (Admin, Manager, Cashier)",
-      "Instant POS transaction checkout with automated change calculation",
-      "Inventory tracking with automatic restock alert triggers",
-      "Membership management and tiered discount point calculation",
-      "Comprehensive revenue reports with date-range filters & exportable receipts",
-      "Visual sales performance charts powered by Chart.js"
+      "Role-based access for Admin, Manager, and Cashier",
+      "Fast checkout workflow with automatic change calculation",
+      "Inventory management with low-stock warning thresholds",
+      "Member management and loyalty discount points",
+      "Printable transaction receipts and sales summary reports",
+      "Visual revenue charts powered by Chart.js"
     ],
     tech: ["Laravel (PHP)", "MySQL", "JavaScript", "Blade Templating", "Chart.js", "Bootstrap", "Receipt Engine"],
     liveUrl: null,
     githubUrl: "https://github.com/Doni354/Kasir.IDon"
   },
   foodies: {
-    title: "Foodies — Interactive Culinary E-Commerce Platform",
-    category: "Web Application • Culinary Commerce",
+    title: "Foodies — Online Food Ordering Website",
+    category: "Food Ordering E-Commerce",
     image: "assets/Foodies.png",
-    description: "Foodies is an end-to-end culinary shopping platform developed to streamline food and beverage ordering. It features a modern product catalog, dynamic cart management, order submission workflows, and an administrative control panel for real-time inventory and pricing updates.",
-    problemSolution: "Built during Doni's early web development journey to answer a real merchant request, Foodies replaces paper ordering with a smooth digital menu, reducing ordering friction and empowering owners with central order tracking.",
+    description: "Foodies was my debut web project, created during my early web development learning phase to fulfill a request. It is an online food ordering platform where customers can browse menus, manage a shopping cart, and submit orders.",
+    problemSolution: "Replaces manual food ordering with a simple digital menu, allowing customers to order online and providing admins with a dashboard to update menu items and prices.",
     features: [
-      "Dynamic product showcase with category filtering & pricing",
-      "Interactive cart with client-side quantity management",
-      "Customer checkout flow with direct order recording",
-      "Admin portal for full product CRUD (Create, Read, Update, Delete) & pricing",
-      "Responsive layout optimized for smartphones and desktop ordering"
+      "Dynamic product catalog with categories and pricing",
+      "Client-side cart calculation and item quantity management",
+      "Customer order checkout flow",
+      "Admin dashboard for managing food items (CRUD)",
+      "Mobile-responsive ordering layout"
     ],
     tech: ["PHP", "MySQL", "JavaScript", "CSS3", "Responsive UI"],
     liveUrl: "https://foodiesxiakl1.000webhostapp.com/",
     githubUrl: "https://github.com/Doni354/Foodies"
   },
   eppg: {
-    title: "E-PPG — Regional Attendance & Syllabus Management",
-    category: "Full-Stack System • Multi-Regional Education",
+    title: "E-PPG — Regional Attendance & Learning Portal",
+    category: "Attendance & Learning Portal",
     image: "assets/EPPG.png",
-    description: "E-PPG is a centralized regional attendance and educational material tracking system engineered to serve multi-branch learning institutions. It allows regional teachers and branch admins to record daily attendance, upload course materials, and monitor student participation in real time.",
-    problemSolution: "Educational organizations spanning multiple regional branches frequently face data fragmentation and manual reporting delays. E-PPG centralizes branch student data into a unified database, enabling cross-region analytics and automated attendance audits.",
+    description: "E-PPG is a web portal built to manage student attendance and learning materials across multiple regional branches. It allows branch teachers to log daily attendance and share materials centrally.",
+    problemSolution: "Educational organizations with multiple regional branches often have fragmented attendance records. E-PPG centralizes branch student data so regional supervisors can review attendance logs and material access in one place.",
     features: [
-      "Multi-regional administrative portal with branch-specific permissions",
-      "Live daily attendance logger with timestamp and status records",
-      "Course curriculum and material repository accessible by authorized educators",
-      "Regional aggregation dashboard for student attendance rate inspection",
-      "Data export and regional performance auditing"
+      "Multi-user role authentication for branch admins and teachers",
+      "Daily student attendance logging with timestamp verification",
+      "Course material upload and repository for students",
+      "Regional attendance summaries and reporting filters",
+      "Responsive interface accessible across devices"
     ],
     tech: ["PHP", "MySQL", "JavaScript", "Role Auth", "Data Tables", "CSS3"],
     liveUrl: null,
     githubUrl: "https://github.com/Doni354/E-PPG"
   },
   smartschool: {
-    title: "SmartSchool — Student Permission Management Platform",
-    category: "Production Web App • School Governance",
+    title: "SmartSchool — Student Permission Slip Platform",
+    category: "School Permission Portal",
     image: "assets/smartschool.png",
-    description: "SmartSchool is an active, production-grade web application engineered to manage and streamline student leave permissions across school institutions. Actively deployed and trusted to handle over 1,000+ permit requests with complete digital verification trails.",
-    problemSolution: "Paper-based school permission slips are notoriously vulnerable to loss, unauthorized approval, and lack of accountability. SmartSchool replaces paper slips with an automated cloud approval pipeline, enabling administrative staff and teachers to instantly inspect student attendance records.",
+    description: "SmartSchool is a web application designed to digitize student leave and permission slips. Actively used in school environments, it has processed over 1,000+ student permission requests with digital approval logs.",
+    problemSolution: "Paper permission slips get lost easily and lack quick verification. SmartSchool automates the permission workflow, allowing students or guardians to submit requests and staff to approve them in real time via Firebase Firestore.",
     features: [
-      "Digital student leave authorization handling 1,000+ live permit records",
-      "Administrative approval dashboard with instant search and status filtering",
-      "Real-time database integration via Firebase Firestore",
-      "Mobile-friendly interface accessible across smartphones and classroom desktops"
+      "Digital student permission slip submissions (1,000+ processed)",
+      "Fast administrative search and approval dashboard",
+      "Cloud Firestore integration for real-time status updates",
+      "Mobile-optimized design for teachers and students"
     ],
     tech: ["Firebase", "JavaScript", "Cloud Firestore", "Responsive UI"],
     liveUrl: "https://smartschool-34158.web.app/",
@@ -291,129 +291,130 @@ const projectsData = {
   },
   infria: {
     title: "INFRIA — Universal Conversational AI Infrastructure",
-    category: "PKM-KI • AI Infrastructure & Platform",
+    category: "AI Infrastructure • Ongoing Competition Project",
     image: "assets/infria.png",
-    description: "INFRIA (AI Infrastructure for Applications) is an enterprise AI backend layer designed to bridge disparate software ecosystems with conversational AI, RAG knowledge retrieval, and dynamic function calling without requiring developers to build custom AI pipelines from scratch.",
-    problemSolution: "Integrating specialized AI conversational workflows into existing mobile or web apps typically requires months of custom model fine-tuning and backend middleware. INFRIA solves this by offering a unified API gateway and SDKs that orchestrate LLM requests, dynamic function execution, and workflow automations seamlessly.",
+    description: "INFRIA (AI Infrastructure for Applications) is an ongoing innovation project currently being prepared for upcoming student competitions. It serves as an AI backend and API gateway layer to help developers integrate conversational AI, knowledge retrieval (RAG), and dynamic action triggers into their apps without building complex AI pipelines from scratch.",
+    problemSolution: "Adding custom AI workflows into existing applications often requires months of boilerplate API development and middleware setup. INFRIA provides a streamlined API gateway and client SDKs that handle LLM requests, webhook automations, and knowledge retrieval seamlessly.",
     features: [
-      "Unified AI API gateway & microservice architecture for client applications",
-      "Dynamic Function Calling enabling AI to trigger application actions directly",
-      "Retrieval-Augmented Generation (RAG) knowledge retrieval pipelines",
-      "Workflow automation and webhook triggers powered by n8n and Node.js",
-      "Flutter SDK and Next.js portal integration for rapid deployment"
+      "Ongoing research & development project for upcoming competitions",
+      "Centralized AI API gateway for web and mobile client applications",
+      "Dynamic function calling support allowing AI to execute app actions",
+      "Context-aware knowledge retrieval (RAG) pipelines",
+      "Workflow automation integration using n8n and Node.js microservices",
+      "Client SDK integration for Next.js web portals and Flutter mobile apps"
     ],
     tech: ["Next.js", "Node.js", "Express", "Firebase Functions", "Firestore", "n8n", "Flutter SDK", "LLM"],
     liveUrl: null,
     githubUrl: null
   },
   vorce: {
-    title: "Vorce — Business Collaboration & Task Management Backend",
-    category: "Production Backend • Enterprise SaaS",
+    title: "Vorce — Business Collaboration & Task API",
+    category: "Task & Collaboration Platform",
     image: "assets/vorce.png",
-    description: "Vorce is an enterprise operations and team collaboration platform. As backend engineer, architected the core RESTful task management endpoints, multi-tenant company schemas, state transition workflows, and Firestore security access levels.",
-    problemSolution: "Modern enterprise teams struggle with fractured task coordination and lack of verified proof-of-work evidence. Designed robust backend data models (/companies/{idCompany}/tasks/{taskId}) supporting seamless status transitions and role-based permissions.",
+    description: "Vorce is a team operations and task management platform. As backend developer, I built the RESTful task endpoints, company tenant data structures, and Firestore security rules that power the mobile application on Google Play.",
+    problemSolution: "Teams need a reliable way to assign tasks, submit completion proof, and track progress across departments. Built structured backend models in Firestore (/companies/{idCompany}/tasks/{taskId}) with verified status transitions and role permissions.",
     features: [
-      "Scalable RESTful API for task lifecycle management (In-Progress, Pending, Completed)",
-      "Multi-tenant company data isolation and role authorization in Firestore",
-      "Task completion evidence submission and gamified point reward calculations",
-      "Admin verification workflows and automated state synchronization",
-      "Production deployment supporting the official Vorce mobile app on Google Play"
+      "RESTful API for task lifecycles (Pending, In Progress, Completed)",
+      "Multi-company data isolation and role permissions in Firestore",
+      "Task completion evidence submission and point reward tracking",
+      "Real-time state synchronization across web and mobile clients",
+      "Backend support for the official Vorce Android app on Google Play"
     ],
     tech: ["Node.js", "Firebase Firestore", "RESTful API", "Cloud Functions", "GCP"],
     liveUrl: "https://vorce.id/",
     githubUrl: null
   },
   spmb: {
-    title: "SPMB / PPDB Tulungagung — Admissions Dashboard & Load Testing",
-    category: "Client Project • Government Admissions",
+    title: "SPMB / PPDB — Student Admissions & k6 Testing",
+    category: "Admissions Dashboard & Testing",
     image: "assets/spmb.png",
-    description: "Tailored administrative dashboard and frontend UI redesign for the Junior High School (SMP) student admissions system in Tulungagung Regency. Executed high-concurrency load and stress testing using the k6 engine.",
-    problemSolution: "Admissions periods produce massive concurrent spikes that often bring regional registration servers down. Conducted systematic load testing simulating thousands of concurrent applicants with k6, benchmarked bottlenecks, and provided optimized dashboard views for school operators.",
+    description: "Redesigned the administrative admissions dashboard for Junior High School (SMP) student registration in Tulungagung Regency. Also performed load and stress testing using k6 to evaluate system performance during peak application periods.",
+    problemSolution: "Student admissions create massive traffic spikes that can slow down or crash servers. Conducted simulated stress tests with k6 to identify throughput bottlenecks and optimized the admin dashboard for school operators.",
     features: [
-      "Modernized administrative dashboard for applicant processing and verification",
-      "High-concurrency load testing and bottleneck profiling with k6",
-      "Real-time applicant distribution statistics and regional quota visualization",
-      "Optimized frontend asset delivery for high-traffic peak periods"
+      "Clean administrative dashboard for reviewing student admissions",
+      "Simulated concurrent traffic and bottleneck testing with k6",
+      "Real-time statistics on applicant quotas and school selections",
+      "Optimized frontend assets for fast loading during peak hours"
     ],
     tech: ["Web Development", "k6 (Load Testing)", "JavaScript", "Bootstrap", "REST API"],
     liveUrl: null,
     githubUrl: null
   },
   elecomp: {
-    title: "PT Elecomp Software House — 25+ Client Websites & SEO Optimization",
+    title: "PT Elecomp — 25+ Client Websites & SEO",
     category: "6-Month Internship • Software House",
     image: "assets/elecomp.png",
-    description: "Completed an intensive 6-month software house internship at PT Elecomp Software House (July – December 2024), developing around 25 client company profile websites, technical on-page SEO architectures, and Google PageSpeed optimizations.",
-    problemSolution: "Businesses frequently suffer from slow website load times and low Google visibility. Conducted audits, eliminated render-blocking resources, optimized image compression pipelines, and built high-converting responsive company profiles.",
+    description: "During a 6-month internship at PT Elecomp Software House (July – December 2024), I built approximately 25 company profile websites for business clients, configured on-page technical SEO, and optimized mobile Google PageSpeed scores.",
+    problemSolution: "Many client websites were slow and not ranking on search engines. Audited page structures, reduced render-blocking assets, optimized images, and delivered responsive, fast-loading business websites.",
     features: [
-      "Engineered ~25 responsive company profile websites tailored to business clients",
-      "On-page technical SEO optimization boosting Google search indexation",
-      "Core Web Vitals & PageSpeed optimization achieving high mobile scores",
-      "Cross-browser testing and responsive design implementation"
+      "Developed ~25 responsive business company profile websites",
+      "On-page SEO setup (meta tags, sitemaps, semantic hierarchy)",
+      "PageSpeed optimization for fast mobile loading scores",
+      "Cross-browser and multi-device compatibility testing"
     ],
     tech: ["HTML5", "CSS3", "JavaScript", "PHP", "SEO Tuning", "PageSpeed Insights"],
     liveUrl: null,
     githubUrl: null
   },
   wisnufarma: {
-    title: "WisnuFarma & CMS Module — Pharmacy Web Application",
-    category: "Haltec Client • Healthcare Commerce",
+    title: "WisnuFarma & CMS — Pharmacy Web Application",
+    category: "Pharmacy CMS & Web Portal",
     image: "assets/wisnufarma.png",
-    description: "Developed core CMS modules and pharmacy management features for the WisnuFarma web application in collaboration with Haltec / HalteCreative software house.",
-    problemSolution: "Pharmaceutical businesses need secure, structured administrative control to manage medicine inventories, categories, and public informational portals. Built customized CMS modules integrated directly into the production web system.",
+    description: "Developed CMS modules and pharmacy management features for WisnuFarma in collaboration with Haltec software house, giving pharmacy operators an administrative portal to manage catalog items and updates.",
+    problemSolution: "Pharmacies need a reliable way to update medicine information, categories, and announcements without touching code. Built a clean CMS module integrated directly into their production web system.",
     features: [
-      "Dedicated CMS administrative control panel for medicine and content management",
-      "Secure authentication and session verification protocols",
-      "Clean modular code integrated into the production WisnuFarma platform",
-      "Responsive user interface optimized for desktop and mobile pharmacists"
+      "Custom CMS admin panel for medicine catalog and content updates",
+      "Session authentication and role authorization",
+      "Clean modular code integrated into the production codebase",
+      "Responsive layout for desktop and mobile pharmacist use"
     ],
     tech: ["PHP", "JavaScript", "MySQL", "CMS Architecture", "Responsive CSS"],
     liveUrl: "https://wisnu-farma.com/login",
     githubUrl: null
   },
   noury: {
-    title: "Noury — POS & Pre-Order Commerce Platform",
-    category: "Academic Entrepreneurship • Commerce Platform",
+    title: "Noury — POS & Pre-Order Platform",
+    category: "Merchandise & POS Platform",
     image: "assets/noury.png",
-    description: "Noury is a Point-of-Sale (POS) and merchandise pre-order management platform created for university entrepreneurship initiatives. Encapsulates transaction accounting, inventory tracking, and customer pre-order workflows.",
-    problemSolution: "Pre-order merchandise campaigns frequently suffer from disorganized order logs and payment confusion. Noury unifies order intake, payment verification, and delivery tracking in one intuitive web platform.",
+    description: "A web application built with Next.js and Firebase to handle campus merchandise pre-orders and on-site sales transactions, backed by Cloudinary image storage for product showcases.",
+    problemSolution: "Merchandise sales on campus often rely on manual chat orders and messy spreadsheets. Noury simplifies order entry, payment verification, and stock tracking in one place.",
     features: [
-      "Point of Sale (POS) transaction register with rapid order entry",
-      "Pre-order merchandise management tracking customer order stages",
-      "Inventory tracking with stock availability limits",
-      "Cloudinary asset storage for product photography and promotional banners"
+      "POS checkout interface for quick in-person sales",
+      "Pre-order tracking from customer order to fulfillment",
+      "Real-time stock limit and inventory tracking",
+      "Cloudinary image integration for product catalogs and banners"
     ],
     tech: ["Next.js", "Firebase", "Cloudinary", "Vercel", "TailwindCSS"],
     liveUrl: "https://noury-se.vercel.app/",
     githubUrl: "https://github.com/Doni354/black-market"
   },
   simplempg: {
-    title: "Simple MPG — Instant Browser Mini-Games Hub",
-    category: "Web Platform • Game Development",
+    title: "Simple MPG — Browser Mini-Games Hub",
+    category: "Browser Mini-Games",
     image: "assets/simplempg.png",
-    description: "Simple MPG (Multiplayer Games) is an instant-play browser gaming platform requiring zero downloads. Features Tic Tac Toe with intelligent AI opponent algorithms and real-time multiplayer synced via Firebase.",
-    problemSolution: "Casual online games are usually weighed down by mandatory app downloads and intrusive ads. Simple MPG provides a featherweight, instant-play web hub where users can immediately challenge an AI or invite friends via link.",
+    description: "Simple MPG is a lightweight browser gaming site built with vanilla JavaScript and Firebase. Features Tic Tac Toe with an AI opponent powered by the Minimax algorithm and online multiplayer mode.",
+    problemSolution: "Casual web games are often cluttered with heavy downloads and ads. Simple MPG runs instantly in any browser with zero installation, letting players play solo against AI or invite a friend via link.",
     features: [
-      "Zero-install browser gameplay running on lightweight native canvas & DOM",
-      "Tic Tac Toe with smart AI opponent powered by minimax decision algorithms",
-      "Real-time peer-to-peer multiplayer mode synchronized via Firebase",
-      "Clean tactile UI designed for touchscreens and desktop screens alike"
+      "Zero-install browser gameplay with HTML5 canvas and clean DOM",
+      "Tic Tac Toe AI opponent powered by Minimax decision logic",
+      "Real-time 2-player multiplayer synchronized via Firebase",
+      "Clean, responsive controls for touchscreens and desktop"
     ],
     tech: ["JavaScript (ES6+)", "Firebase Realtime DB", "HTML5 Canvas", "CSS3 Animations"],
     liveUrl: "https://simplempg-6c08f.web.app/",
     githubUrl: null
   },
   classlyai: {
-    title: "Classly AI — AI-Augmented Learning Management System",
-    category: "ZTE Competition • AI EdTech Concept",
+    title: "Classly AI — Learning Management with AI Tutor",
+    category: "ZTE Competition • AI LMS Concept",
     image: "assets/classlyai.png",
-    description: "Backend developer and AI integration specialist for an AI-powered Learning Management System (LMS) created for the national ZTE innovation competition. Concept served as the foundational forerunner to INFRIA.",
-    problemSolution: "Conventional LMS portals present one-size-fits-all materials without interactive feedback. Integrated conversational AI assist to guide learners through complex coursework and provide personalized hints.",
+    description: "Backend development and conversational AI integration for an intelligent LMS concept submitted to the national ZTE innovation competition. This concept was the early precursor to the INFRIA platform.",
+    problemSolution: "Traditional online classrooms lack instant interactive help when students are stuck on homework. We integrated an AI tutor into the LMS to answer questions and give hints on course materials.",
     features: [
-      "Conversational AI tutoring integration for student assignment assistance",
-      "Backend REST API architecture supporting course materials and submissions",
-      "Evaluated architectural bottlenecks leading to the creation of universal AI backend (INFRIA)",
-      "Multi-role user authentication separating students, teachers, and guardians"
+      "Conversational AI tutor to assist students with coursework questions",
+      "RESTful backend API for courses, materials, and submissions",
+      "Multi-role logins separating students and instructors",
+      "Provided the architectural foundation that inspired INFRIA"
     ],
     tech: ["Node.js", "Express", "AI Integration", "RESTful API", "Cloud Storage"],
     liveUrl: null,
@@ -421,31 +422,31 @@ const projectsData = {
   },
   cetakkartu: {
     title: "Web Cetak Kartu Pelajar — ID Card Generator",
-    category: "Administrative Tool • Automation",
+    category: "Student ID Card Generator",
     image: "assets/cetakkartu.png",
-    description: "An automated web application designed to generate student ID cards in bulk. Fetches roster data from Google Sheets API, pairs student portraits, and formats pixel-perfect A4 printing templates.",
-    problemSolution: "Creating hundreds of student ID cards manually in graphic software consumes days of repetitive labor. This tool automates data ingestion, photo alignment, and A4 print layout generation in seconds.",
+    description: "An automated web tool designed to generate student ID cards in bulk. Reads roster information from Google Sheets API, pairs student portraits via Cloudinary, and formats print-ready A4 templates.",
+    problemSolution: "Creating hundreds of student cards manually in graphic software takes hours of repetitive work. This tool automates data fetching, photo alignment, and A4 printing grids in just a few clicks.",
     features: [
-      "Automated roster synchronization from Google Sheets API",
-      "Cloudinary portrait image processing and dynamic scaling",
-      "Pixel-perfect A4 grid print layout calibrated for standard laminators",
-      "Automated student barcode and QR code generation"
+      "Direct roster import from Google Sheets API",
+      "Cloudinary photo processing and automatic aspect ratio scaling",
+      "Print-ready A4 grid layout aligned for standard laminators",
+      "Automatic student barcode and QR code generation"
     ],
     tech: ["JavaScript", "Google Sheets API", "Cloudinary", "CSS Print Media", "Vercel"],
     liveUrl: "https://cetak-kartu-pelajar.vercel.app/",
     githubUrl: "https://github.com/Doni354/cetak-kartu-pelajar"
   },
   rfid: {
-    title: "IoT RFID Attendance System — Microcontroller to Cloud",
-    category: "IoT & Embedded • Cloud Telemetry",
+    title: "IoT RFID Attendance — Microcontroller to Cloud",
+    category: "IoT Hardware & Telemetry",
     image: "assets/rfid.png",
-    description: "An internet-connected hardware attendance solution combining RFID contactless smartcard readers, an ESP32/microcontroller, and real-time Google Sheets cloud logging.",
-    problemSolution: "Physical attendance sheets cause administrative queues and manual entry errors. Built an autonomous IoT scanner that reads contactless RFID cards and automatically logs verified timestamps to the cloud.",
+    description: "A hardware attendance device combining an ESP32 microcontroller, RC522 RFID card reader, and Google Sheets cloud logging over WiFi.",
+    problemSolution: "Manual attendance rosters cause queues and recording errors. Built a standalone IoT scanner that reads RFID smartcards and automatically pushes verified timestamps to Google Sheets in real time.",
     features: [
-      "High-speed contactless card UID scanning via RC522 RFID module",
-      "Autonomous WiFi telemetry streaming attendance records to Google Sheets",
-      "Local audio-visual status feedback (LED indicator & buzzer confirmation)",
-      "Tamper-resistant student identification and timestamp verification"
+      "Fast contactless smartcard scanning with RC522 module",
+      "WiFi telemetry logging timestamps straight to Google Sheets",
+      "Audio-visual feedback with LED indicator and buzzer",
+      "Portable hardware setup suitable for classrooms and labs"
     ],
     tech: ["ESP32 / ESP8266", "C++", "RFID RC522", "Google Sheets API", "IoT Telemetry"],
     liveUrl: null,
@@ -453,31 +454,31 @@ const projectsData = {
   },
   bemweb: {
     title: "Riset BEM Goes to Desa 2026 — Web Platform",
-    category: "Community Platform • Information Portal",
+    category: "BEM Goes to Desa 2026 • Web Platform",
     image: "assets/BEM.png",
-    description: "Portal web publikasi resmi untuk program Riset BEM Goes to Desa 2026. Menyajikan dokumentasi riset desa, transparansi program pengabdian, dan kanal informasi bagi masyarakat serta mahasiswa.",
-    problemSolution: "Program pengabdian masyarakat sering terkendala keterbatasan akses informasi publik dan pelaporan dokumentasi yang terpusat. Dibangun web platform cepat dan responsif agar luaran riset dan kegiatan mahasiswa dapat diakses transparan oleh seluruh pihak.",
+    description: "The official web publication portal for the BEM Goes to Desa 2026 program. Documents student rural research, community service initiatives, and project updates.",
+    problemSolution: "Community service programs often lack centralized public documentation. Built a fast, responsive website on Vercel so research outputs and student village activities are publicly accessible.",
     features: [
-      "Portal web publikasi riset dan dokumentasi kegiatan BEM Goes to Desa 2026",
-      "Deployed live di risetbemgtd2026.vercel.app dengan performa cepat dan responsif",
-      "Antarmuka yang bersih dan mudah dinavigasi oleh masyarakat maupun civitas akademika",
-      "Struktur konten terorganisir untuk pelaporan berkala hasil penelitian desa"
+      "Official documentation portal for BEM Goes to Desa 2026",
+      "Deployed live on Vercel with fast load times and clean navigation",
+      "Responsive layout accessible for community members and university students",
+      "Organized content structure for ongoing village research updates"
     ],
     tech: ["JavaScript", "Web Platform", "Responsive UI", "Vercel"],
     liveUrl: "https://risetbemgtd2026.vercel.app/",
     githubUrl: "https://github.com/Doni354/risetBEMGTD2026"
   },
   piralarm: {
-    title: "IoT PIR Motion Alarm — BEM GTD 2026 Perimeter Security",
-    category: "IoT & Embedded Systems • Hardware Security",
+    title: "IoT PIR Motion Alarm — Perimeter Security",
+    category: "BEM GTD 2026 • Hardware Security",
     image: "assets/piralarm.png",
-    description: "Perangkat keras pendeteksi intrusi perimeter berbasis sensor gerak PIR dan mikrokontroler untuk sistem keamanan posko desa BEM Goes to Desa 2026. Dirancang hemat daya dengan pemicu alarm akustik instan saat terdeteksi pergerakan.",
-    problemSolution: "Posko pengabdian desa di area pedalaman seringkali minim penerangan dan rawan intrusi malam hari. Dibuat sistem alarm motion detection berbasis PIR dengan konsumsi daya rendah dan aktuator alarm suara yang efektif memberi peringatan perimeter.",
+    description: "A perimeter intrusion alarm built with a PIR motion sensor, microcontroller, and buzzer for the student community post during BEM Goes to Desa 2026. Designed for low power consumption with instant acoustic alarm triggers.",
+    problemSolution: "Community posts in rural areas often have limited lighting and need perimeter monitoring at night. Built a low-power motion detection alarm that sounds immediately when motion is detected.",
     features: [
-      "Sistem deteksi intrusi perimeter berbasis sensor Passive Infrared (PIR)",
-      "Firmware mikrokontroler C++ teroptimasi dengan konsumsi daya efisien",
-      "Pemicu respon instan dengan aktivasi alarm akustik saat sensor terpicu",
-      "Sirkuit mandiri yang tangguh dan portabel untuk dipasang di berbagai titik posko"
+      "Perimeter motion detection using a Passive Infrared (PIR) sensor",
+      "Optimized C++ firmware for efficient battery consumption",
+      "Instant acoustic buzzer alarm trigger upon movement detection",
+      "Compact, standalone hardware setup easy to place around the post"
     ],
     tech: ["Microcontroller", "C++", "PIR Motion Sensor", "Acoustic Alarm", "Hardware"],
     liveUrl: null,
